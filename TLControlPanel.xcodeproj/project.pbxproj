@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C24A5671888C57F00880F01 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C24A5661888C57F00880F01 /* Constants.m */; };
+		5CE336E518880A2E00C20373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE336E418880A2E00C20373 /* Foundation.framework */; };
+		5CE336E718880A2E00C20373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE336E618880A2E00C20373 /* CoreGraphics.framework */; };
+		5CE336E918880A2E00C20373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE336E818880A2E00C20373 /* UIKit.framework */; };
+		5CE336EF18880A2E00C20373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CE336ED18880A2E00C20373 /* InfoPlist.strings */; };
+		5CE336F118880A2E00C20373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE336F018880A2E00C20373 /* main.m */; };
+		5CE336F518880A2E00C20373 /* TLControlPanelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE336F418880A2E00C20373 /* TLControlPanelAppDelegate.m */; };
+		5CE336F818880A2E00C20373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE336F618880A2E00C20373 /* Main.storyboard */; };
+		5CE336FB18880A2E00C20373 /* TLControlPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE336FA18880A2E00C20373 /* TLControlPanelViewController.m */; };
+		5CE336FD18880A2E00C20373 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE336FC18880A2E00C20373 /* Images.xcassets */; };
+		5CE3370418880A2E00C20373 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE3370318880A2E00C20373 /* XCTest.framework */; };
+		5CE3370518880A2E00C20373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE336E418880A2E00C20373 /* Foundation.framework */; };
+		5CE3370618880A2E00C20373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE336E818880A2E00C20373 /* UIKit.framework */; };
+		5CE3370E18880A2F00C20373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CE3370C18880A2F00C20373 /* InfoPlist.strings */; };
+		5CE3371018880A2F00C20373 /* TLControlPanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE3370F18880A2F00C20373 /* TLControlPanelTests.m */; };
+		5CE3371B1888105200C20373 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE3371A1888105200C20373 /* AboutViewController.m */; };
+		5CE3371D1888140E00C20373 /* AboutTLControl.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CE3371C1888140E00C20373 /* AboutTLControl.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CE3370718880A2F00C20373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CE336D918880A2E00C20373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CE336E018880A2E00C20373;
+			remoteInfo = TLControlPanel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C24A5651888C57F00880F01 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5C24A5661888C57F00880F01 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		5CE336E118880A2E00C20373 /* TLControlPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLControlPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE336E418880A2E00C20373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CE336E618880A2E00C20373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CE336E818880A2E00C20373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CE336EC18880A2E00C20373 /* TLControlPanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TLControlPanel-Info.plist"; sourceTree = "<group>"; };
+		5CE336EE18880A2E00C20373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CE336F018880A2E00C20373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CE336F218880A2E00C20373 /* TLControlPanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TLControlPanel-Prefix.pch"; sourceTree = "<group>"; };
+		5CE336F318880A2E00C20373 /* TLControlPanelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLControlPanelAppDelegate.h; sourceTree = "<group>"; };
+		5CE336F418880A2E00C20373 /* TLControlPanelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLControlPanelAppDelegate.m; sourceTree = "<group>"; };
+		5CE336F718880A2E00C20373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CE336F918880A2E00C20373 /* TLControlPanelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLControlPanelViewController.h; sourceTree = "<group>"; };
+		5CE336FA18880A2E00C20373 /* TLControlPanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLControlPanelViewController.m; sourceTree = "<group>"; };
+		5CE336FC18880A2E00C20373 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CE3370218880A2E00C20373 /* TLControlPanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLControlPanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE3370318880A2E00C20373 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CE3370B18880A2F00C20373 /* TLControlPanelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TLControlPanelTests-Info.plist"; sourceTree = "<group>"; };
+		5CE3370D18880A2F00C20373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CE3370F18880A2F00C20373 /* TLControlPanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLControlPanelTests.m; sourceTree = "<group>"; };
+		5CE337191888105200C20373 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		5CE3371A1888105200C20373 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		5CE3371C1888140E00C20373 /* AboutTLControl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AboutTLControl.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CE336DE18880A2E00C20373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE336E718880A2E00C20373 /* CoreGraphics.framework in Frameworks */,
+				5CE336E918880A2E00C20373 /* UIKit.framework in Frameworks */,
+				5CE336E518880A2E00C20373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE336FF18880A2E00C20373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE3370418880A2E00C20373 /* XCTest.framework in Frameworks */,
+				5CE3370618880A2E00C20373 /* UIKit.framework in Frameworks */,
+				5CE3370518880A2E00C20373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CE336D818880A2E00C20373 = {
+			isa = PBXGroup;
+			children = (
+				5CE336EA18880A2E00C20373 /* TLControlPanel */,
+				5CE3370918880A2F00C20373 /* TLControlPanelTests */,
+				5CE336E318880A2E00C20373 /* Frameworks */,
+				5CE336E218880A2E00C20373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CE336E218880A2E00C20373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CE336E118880A2E00C20373 /* TLControlPanel.app */,
+				5CE3370218880A2E00C20373 /* TLControlPanelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CE336E318880A2E00C20373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CE336E418880A2E00C20373 /* Foundation.framework */,
+				5CE336E618880A2E00C20373 /* CoreGraphics.framework */,
+				5CE336E818880A2E00C20373 /* UIKit.framework */,
+				5CE3370318880A2E00C20373 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CE336EA18880A2E00C20373 /* TLControlPanel */ = {
+			isa = PBXGroup;
+			children = (
+				5C24A5651888C57F00880F01 /* Constants.h */,
+				5C24A5661888C57F00880F01 /* Constants.m */,
+				5CE3371C1888140E00C20373 /* AboutTLControl.html */,
+				5CE337191888105200C20373 /* AboutViewController.h */,
+				5CE3371A1888105200C20373 /* AboutViewController.m */,
+				5CE336F318880A2E00C20373 /* TLControlPanelAppDelegate.h */,
+				5CE336F418880A2E00C20373 /* TLControlPanelAppDelegate.m */,
+				5CE336F618880A2E00C20373 /* Main.storyboard */,
+				5CE336F918880A2E00C20373 /* TLControlPanelViewController.h */,
+				5CE336FA18880A2E00C20373 /* TLControlPanelViewController.m */,
+				5CE336FC18880A2E00C20373 /* Images.xcassets */,
+				5CE336EB18880A2E00C20373 /* Supporting Files */,
+			);
+			path = TLControlPanel;
+			sourceTree = "<group>";
+		};
+		5CE336EB18880A2E00C20373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE336EC18880A2E00C20373 /* TLControlPanel-Info.plist */,
+				5CE336ED18880A2E00C20373 /* InfoPlist.strings */,
+				5CE336F018880A2E00C20373 /* main.m */,
+				5CE336F218880A2E00C20373 /* TLControlPanel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CE3370918880A2F00C20373 /* TLControlPanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CE3370F18880A2F00C20373 /* TLControlPanelTests.m */,
+				5CE3370A18880A2F00C20373 /* Supporting Files */,
+			);
+			path = TLControlPanelTests;
+			sourceTree = "<group>";
+		};
+		5CE3370A18880A2F00C20373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE3370B18880A2F00C20373 /* TLControlPanelTests-Info.plist */,
+				5CE3370C18880A2F00C20373 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CE336E018880A2E00C20373 /* TLControlPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE3371318880A2F00C20373 /* Build configuration list for PBXNativeTarget "TLControlPanel" */;
+			buildPhases = (
+				5CE336DD18880A2E00C20373 /* Sources */,
+				5CE336DE18880A2E00C20373 /* Frameworks */,
+				5CE336DF18880A2E00C20373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLControlPanel;
+			productName = TLControlPanel;
+			productReference = 5CE336E118880A2E00C20373 /* TLControlPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CE3370118880A2E00C20373 /* TLControlPanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE3371618880A2F00C20373 /* Build configuration list for PBXNativeTarget "TLControlPanelTests" */;
+			buildPhases = (
+				5CE336FE18880A2E00C20373 /* Sources */,
+				5CE336FF18880A2E00C20373 /* Frameworks */,
+				5CE3370018880A2E00C20373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE3370818880A2F00C20373 /* PBXTargetDependency */,
+			);
+			name = TLControlPanelTests;
+			productName = TLControlPanelTests;
+			productReference = 5CE3370218880A2E00C20373 /* TLControlPanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CE336D918880A2E00C20373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TLControlPanel;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chentou TONG";
+				TargetAttributes = {
+					5CE336E018880A2E00C20373 = {
+						DevelopmentTeam = C7RZ55UYB2;
+					};
+					5CE3370118880A2E00C20373 = {
+						TestTargetID = 5CE336E018880A2E00C20373;
+					};
+				};
+			};
+			buildConfigurationList = 5CE336DC18880A2E00C20373 /* Build configuration list for PBXProject "TLControlPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CE336D818880A2E00C20373;
+			productRefGroup = 5CE336E218880A2E00C20373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CE336E018880A2E00C20373 /* TLControlPanel */,
+				5CE3370118880A2E00C20373 /* TLControlPanelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CE336DF18880A2E00C20373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE336FD18880A2E00C20373 /* Images.xcassets in Resources */,
+				5CE336EF18880A2E00C20373 /* InfoPlist.strings in Resources */,
+				5CE3371D1888140E00C20373 /* AboutTLControl.html in Resources */,
+				5CE336F818880A2E00C20373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE3370018880A2E00C20373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE3370E18880A2F00C20373 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CE336DD18880A2E00C20373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE336F118880A2E00C20373 /* main.m in Sources */,
+				5CE336F518880A2E00C20373 /* TLControlPanelAppDelegate.m in Sources */,
+				5CE3371B1888105200C20373 /* AboutViewController.m in Sources */,
+				5CE336FB18880A2E00C20373 /* TLControlPanelViewController.m in Sources */,
+				5C24A5671888C57F00880F01 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE336FE18880A2E00C20373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE3371018880A2F00C20373 /* TLControlPanelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CE3370818880A2F00C20373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CE336E018880A2E00C20373 /* TLControlPanel */;
+			targetProxy = 5CE3370718880A2F00C20373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CE336ED18880A2E00C20373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE336EE18880A2E00C20373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CE336F618880A2E00C20373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE336F718880A2E00C20373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CE3370C18880A2F00C20373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE3370D18880A2F00C20373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CE3371118880A2F00C20373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5CE3371218880A2F00C20373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CE3371418880A2F00C20373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLControlPanel/TLControlPanel-Prefix.pch";
+				INFOPLIST_FILE = "TLControlPanel/TLControlPanel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CE3371518880A2F00C20373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLControlPanel/TLControlPanel-Prefix.pch";
+				INFOPLIST_FILE = "TLControlPanel/TLControlPanel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CE3371718880A2F00C20373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TLControlPanel.app/TLControlPanel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLControlPanel/TLControlPanel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TLControlPanelTests/TLControlPanelTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CE3371818880A2F00C20373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TLControlPanel.app/TLControlPanel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLControlPanel/TLControlPanel-Prefix.pch";
+				INFOPLIST_FILE = "TLControlPanelTests/TLControlPanelTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CE336DC18880A2E00C20373 /* Build configuration list for PBXProject "TLControlPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE3371118880A2F00C20373 /* Debug */,
+				5CE3371218880A2F00C20373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE3371318880A2F00C20373 /* Build configuration list for PBXNativeTarget "TLControlPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE3371418880A2F00C20373 /* Debug */,
+				5CE3371518880A2F00C20373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE3371618880A2F00C20373 /* Build configuration list for PBXNativeTarget "TLControlPanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE3371718880A2F00C20373 /* Debug */,
+				5CE3371818880A2F00C20373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CE336D918880A2E00C20373 /* Project object */;
+}
